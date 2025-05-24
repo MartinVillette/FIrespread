@@ -24,15 +24,22 @@ from Google Earth Engine.
    - Uses mathematical coefficients to model realistic wind-fire interaction
    - Implements directional propagation algorithms
 
+![Screenshot](models/screenshot_wind.png)
+
 2. Treecover Model (fire_treecover.py):
    - Models how different vegetation densities affect fire spread
    - Generates terrain with variable forest density
    - Fire propagation depends on local vegetation conditions
 
+![Screenshot](models/screenshot_treecover.png)
+
 3. Real Case Model (Earth_Engine_model):
    - Uses actual geographic data from Google Earth Engine
    - Integrates elevation, temperature, and vegetation data
    - Validates simulation results with FIRMS (Fire Information for Resource Management System) data
+
+![Screenshot](Earth_Engine_model/images/iterations/fire_1605_mod.png)
+
 
 ## TECHNICAL DETAILS
 The simulation uses a grid-based cellular automata approach where:
