@@ -1,6 +1,6 @@
 # Forest Fire Propagation Simulation
 
-![Forest Fire Simulation Overview](Earth_Engine_model\images\iterations\hero_simulation.gif)
+![Forest Fire Simulation Overview](Earth_Engine_model/images/iterations/hero_simulation.gif)
 
 ## Overview
 
@@ -66,11 +66,12 @@ Integrates live satellite and weather data for accurate simulation:
 
 *Left to Right: Satellite imagery, elevation data, temperature mapping*
 
-![Tree Coverage Satellite Data](Earth_Engine_model/images/treecover.jpg)
-*Vegetation coverage from COPERNICUS satellite data*
+<div align="left">
+  <img src="Earth_Engine_model/images/treecover.jpg" alt="Treecover Map" width="30%"/>
+  <img src="Earth_Engine_model/images/firms.jpg" alt="NASA Firms Data" width="30%"/>
+</div>
 
-![Fire Detection Overlay](Earth_Engine_model/images/firms.jpg)
-*NASA FIRMS fire detection overlay for validation*
+*Left to Right: Vegetation coverage from COPERNICUS satellite data, NASA FIRMS fire detection overlay for validation*
 
 **Data Sources**:
 - **COPERNICUS Landcover**: Global vegetation coverage (100m resolution)
@@ -275,7 +276,6 @@ This project is available for educational and research purposes. Academic use en
 ## Achievements
 
 - **Research Excellence**: Successfully completed TIPE scientific research program
-- **Technical Innovation**: First student integration of Google Earth Engine for fire modeling
 - **Validation Success**: 78% accuracy in real-world fire prediction
 - **Educational Impact**: Demonstrates practical applications of theoretical concepts
 - **Performance Optimization**: Real-time simulation with satellite data integration
